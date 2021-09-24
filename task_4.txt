@@ -1,0 +1,7 @@
+MOV A, 231
+
+.loop:
+ INC A	
+MOV [A], 23
+CMP A, 255	
+JNE .loop
